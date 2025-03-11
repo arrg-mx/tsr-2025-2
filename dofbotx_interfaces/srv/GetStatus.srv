@@ -1,0 +1,11 @@
+# Descriptor del mensaje para obtener el estado del robot
+# Request
+# Contenido del mensaje de petición del servicio
+bool is_dofbotx_active
+---
+# Response
+# Conteniudo de la respuesta del serbvicio
+bool is_active
+# Banderas de resultado del proceso del servicio
+bool success
+string string_status_message
