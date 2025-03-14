@@ -1,0 +1,20 @@
+/dofbot_config:
+  ros__parameters:
+    ang_vel: 0.04
+    joint_names:
+    - base_link
+    - link01
+    - link02
+    joint_vals:
+    - 0.0
+    - 0.0
+    - 0.0
+    lin_vel_max: 0.1
+    pid_const:
+    - 0.2
+    - 10.2
+    - 4.34
+    robot_ip: 192.168.200.134
+    time_period: 0.01
+    use_sim_time: false
+
